@@ -1,6 +1,16 @@
+
+.top-page {
+    display: inline;
+
+    padding: 10px;
+}
+
+.a:hover {
+    background-color: green;
+}
+
 .text {
     background-color: blueviolet;
-    margin: auto;
     border: 3px solid green;
     text-align: center;
 }
@@ -9,5 +19,34 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
+    border: 5px solid salmon;
     /* width: 50%; */
 }
+
+.ptext {
+    text-align: center;
+}
+
+.top-page-container {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    width: 100%;
+}
+
+.top-page-ul {
+    background-color: salmon;
+}
+
+.main-page {
+    text-align: center;
+}
+
+.all-body {
+    background-image: url("assets/svg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
