@@ -1,87 +1,39 @@
-html {
-    scroll-behavior: smooth;
-    display: block;
-    width: 100%;
+.header-page ul li{
+    display: inline-block;
+    margin-right: 20px;
+
 }
 
-.image-twitter {
-    max-width: 40%;
-    max-height: 40%;
-    /* padding-top: 220px; */
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: block;
-    border-radius: 25px;
-    position: inherit;
+
+
+.header-page ul li a{
+    color: green;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: larger;
 }
 
-.main-page {
-    background-image: url("assets/svg.png");
+.header-page ul li a:hover{
+    color: greenyellow;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+body {
+    background: url("assets/svg.png");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
-.footer-page{
-    margin-top: 50px;
-    text-align: center;
+#bread-icon {
+    height: 50px;
 }
 
-.text-page{
-    font-style: italic;
+.left-header {
+    display: flex;
 }
 
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: large;
-}
-
-.contact-list {
-    display: inline;
-}
-
-.imagelist {
-    width: 50px;
-    word-spacing: 20px;
-    padding-right: 40px;
-}
-
-.list-page {
-    padding-top: 30px;
-}
-
-.top-page-list {
-    display: inline;
-    padding-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-}
-
-.icon-breaddict {
-    width: 50px;
-}
-
-a {
-    text-decoration: none;
-    color: brown;
-    transition: transform 250ms;
-}
-
-a:hover {
-    color: red;
-    /* background-color: rgba(255, 255, 255, 0.3); */
-   transition: 0.2s;
-}
-
-.header-page {
-    background-color: white;
-    position: relative;
-    display:flex;
-    width: 100%;
-    text-align: left;
+.right-header {
+    display: right;
 }
