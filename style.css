@@ -1,39 +1,84 @@
-.header-page ul li{
-    display: inline-block;
-    margin-right: 20px;
-
+html {
+  scroll-behavior: smooth;
+  display: block;
 }
 
-
-
-.header-page ul li a{
-    color: green;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: larger;
+#bread-logo {
+  width: 50px;
 }
 
-.header-page ul li a:hover{
-    color: greenyellow;
-    text-decoration: none;
-    transition-duration: 0.2s;
+.head-page {
+  padding: 0.2em;
+  font-size: 20px;
+  background-color: whitesmoke;
 }
 
+.head-page nav {
+  display: flex;
+}
+
+.head-page li {
+  display: inline;
+  margin-left: 1em;
+}
+
+.head-page li a {
+  text-decoration: none;
+  /* margin: 1em; */
+  /* text-align: center; */
+}
+
+.head-page li a:hover {
+  text-decoration: underline;
+}
+
+.content img {
+  max-width: 35%;
+  max-height: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+  /* position: inherit; */
+}
+
+head,
 body {
-    background: url("assets/svg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/svg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
-#bread-icon {
-    height: 50px;
+.footer-page {
+  margin-top: 50px;
+  text-align: center;
 }
 
-.left-header {
-    display: flex;
+.text-page {
+  font-style: italic;
 }
 
-.right-header {
-    display: right;
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.contact-list {
+  display: inline;
+}
+
+.imagelist {
+  width: 50px;
+  word-spacing: 20px;
+  padding-right: 40px;
+}
+
+.list-page {
+  padding-top: 30px;
 }
